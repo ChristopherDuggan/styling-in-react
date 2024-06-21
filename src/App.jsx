@@ -6,6 +6,7 @@ import Button1 from './components/example1/Button';
 import Button2 from './components/example2/Button';
 
 // css in js
+import Button3 from './components/example3/Button';
 
 // styled components
 
@@ -18,6 +19,7 @@ function App() {
     <div className="App">
         <Button1 buttonText="Normal CSS" />
         <Button2 buttonText="Inline CSS" />
+        <Button3 buttonText="CSS in JS" />
     </div>
   )
 }
