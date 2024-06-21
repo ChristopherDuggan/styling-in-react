@@ -1,4 +1,5 @@
 import './App.css'
+
 // normal css
 import Button1 from './components/example1/Button';
 
@@ -9,6 +10,7 @@ import Button2 from './components/example2/Button';
 import Button3 from './components/example3/Button';
 
 // styled components
+import Button4 from './components/example4/Button';
 
 // css modules
 
@@ -20,6 +22,7 @@ function App() {
         <Button1 buttonText="Normal CSS" />
         <Button2 buttonText="Inline CSS" />
         <Button3 buttonText="CSS in JS" />
+        <Button3 buttonText="Styled Components" />
     </div>
   )
 }
