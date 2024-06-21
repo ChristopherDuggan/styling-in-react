@@ -13,6 +13,7 @@ import Button3 from './components/example3/Button';
 import Button4 from './components/example4/Button';
 
 // css modules
+import Button5 from './components/example5/Button';
 
 // sass *finger snaps*
 
@@ -22,7 +23,8 @@ function App() {
         <Button1 buttonText="Normal CSS" />
         <Button2 buttonText="Inline CSS" />
         <Button3 buttonText="CSS in JS" />
-        <Button3 buttonText="Styled Components" />
+        <Button4 buttonText="Styled Components" />
+        <Button5 buttonText="CSS Modules" />
     </div>
   )
 }
